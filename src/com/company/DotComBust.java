@@ -16,7 +16,7 @@ public class DotComBust {
         DotCom three = new DotCom();
         three.setName("Go2.com");
 
-        System.out.println("Ваша цель - потопить три 'сайта'.");
+        System.out.println("Ваша цель - потопить три \"сайта\".");
         System.out.println("Pets.com, eToys.com, Go2.com");
         System.out.println("Попытайтесь потопить их за минимальное количество ходов");
 
