@@ -15,6 +15,9 @@ public class DotComBust {
         two.setName("eToys.com");
         DotCom three = new DotCom();
         three.setName("Go2.com");
+        dotComsList.add(one);
+        dotComsList.add(two);
+        dotComsList.add(three);
 
         System.out.println("Ваша цель - потопить три \"сайта\".");
         System.out.println("Pets.com, eToys.com, Go2.com");
