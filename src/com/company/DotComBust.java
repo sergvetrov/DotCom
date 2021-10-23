@@ -33,11 +33,16 @@ public class DotComBust {
         }
         finishGame();
     }
+
     private void checkUserGuess(String userGuess) {
         numOfGuesses++;
         String result = "Мимо";
 
         for (DotCom dotComToTest : dotComsList) {
+            result = dotComToTest.checkYourself(userGuess);
+            if (result.equals("Попал")) {
+                break;
+            }
             if (result.equals("Потопил")) {
                 dotComsList.remove(dotComToTest);
                 break;

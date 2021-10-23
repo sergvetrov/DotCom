@@ -21,12 +21,12 @@ public class DotCom {
             locationCells.remove(index);
             if (locationCells.isEmpty()) {
                 result = "Потопил";
+                System.out.println("Ой! Вы потопили " + name + " : ( ");
             } else {
                 result = "Попал";
             }
         }
 
-       return result;
+        return result;
     }
 }
-
